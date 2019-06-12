@@ -13,6 +13,7 @@
 pipeline {
     agent {
         node {
+            label 'common-ws-agent'
             customWorkspace 'monorepo-experiments-master'
         }
     }
